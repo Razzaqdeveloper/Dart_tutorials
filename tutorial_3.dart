@@ -35,19 +35,25 @@ void main() {
   
   //number: int
   int score = 20;
+  int hexValue = 0xAAAFBEFF; //using hexValue 0 to 9 and A to F
   
   //numbers: double
   double percentage = 97.4;
-  
+  var percent = 78.77;
+  double exponent = 1.536;
   //strings
+  String name = "abdurrazzaq";
+  var company = "google";
   
-  var name = "abdurrazzaq";
   //boolean
   bool isValid = true;
+  var isAlive = false;
   
   print(name);
-  print(score);
   print(percentage);
+  print(hexValue);
   print(isValid);
   
+  //NOTE: all the data types in dart are object
+  // Therefore their inital value is by default 'null'
 }
